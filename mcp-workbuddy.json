@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "paperlib-mcp": {
+      "command": "docker",
+      "args": ["exec", "-i", "paperlib-mcp", "python", "-m", "paperlib_mcp.server"],
+      "env": {}
+    }
+  }
+}
